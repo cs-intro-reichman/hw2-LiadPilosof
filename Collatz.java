@@ -8,7 +8,9 @@ public class Collatz {
 			for (int i = 1; i < seedMax+1; i++) {
 				num = i;
 				do{
-					System.out.print(num+",");
+					if (i!=1) {
+						System.out.print(num+" ");
+					}
 	
 					if (num%2==0) {
 						num = num/2;
@@ -41,7 +43,7 @@ public class Collatz {
 			
 			}
 	
-			System.out.println("Every one of the first " + seedMax + "hailstone sequences reached 1.");
+			System.out.println("Every one of the first " + seedMax + " hailstone sequences reached 1.");
 	
 		}
 		
