@@ -7,9 +7,9 @@ public class Collatz {
 		int count = 0;
 		if (mode == 'v') {
 			for (int i = 1; i < seedMax+1; i++) {
-				count++;
 				num = i;
 				do{
+					count++;
 					System.out.print(num+" ");
 	
 					if (num%2==0) {
