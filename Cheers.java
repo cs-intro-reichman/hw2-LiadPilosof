@@ -9,6 +9,7 @@ public class Cheers {
         String anChars = "AEFHILMNORSX";
         String cheer = args[0];
         int repeat  = Integer.parseInt(args[1]);
+        cheer = cheer.toUpperCase();
 
         for (int i = 0; i < cheer.length(); i++) {
                 if (anChars.indexOf(cheer.charAt(i))==-1) {
