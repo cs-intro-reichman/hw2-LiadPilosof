@@ -4,7 +4,7 @@ public class Collatz {
 	    int seedMax = Integer.parseInt(args[0]);
 		char mode = args[1].charAt(0);
 		int num;
-		int count = 0;
+		int count = 1;
 		if (mode == 'v') {
 			for (int i = 1; i < seedMax+1; i++) {
 				num = i;
@@ -22,7 +22,7 @@ public class Collatz {
 				while (num!=1);
 				System.out.print(1 + " ("+count+")");
 				System.out.println();
-				count = 0;
+				count = 1;
 			}
 	
 	
