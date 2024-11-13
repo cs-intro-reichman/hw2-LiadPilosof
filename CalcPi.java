@@ -9,7 +9,7 @@ public class CalcPi {
 		double pi = 1 ;
 
 
-		for (int i = 1; i < approx+1; i++) {
+		for (int i = 1; i < approx; i++) {
 			if (i%2==0) {
 				pi += (count/div);
 			}
