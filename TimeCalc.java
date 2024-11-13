@@ -23,7 +23,7 @@ public class TimeCalc {
 		int newMin = totalMin - (totalHours * 60);
 
 
-		if (newHours<12) {
+		if (newHours<10) {
 			if (newMin<10) {
 				System.out.println("0"+newHours+":"+"0"+newMin);
 			}
